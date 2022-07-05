@@ -13,6 +13,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .half {
@@ -29,7 +30,7 @@ section {
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, Tomato);
-  padding: 10px 40px;
+  padding: 15px 40px;
   border-radius: 10px;
   font-weight: 700;
   color: white;
@@ -38,4 +39,25 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+
+.color {
+  width: 50%;
+  padding: 5%;
+}
+
+.color p {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.color h3 {
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
